@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'category',
     'accounts',
     'store',
+    'carts',
 ]
 
 MIDDLEWARE = [
@@ -125,7 +126,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT= BASE_DIR /'static'
 STATICFILES_DIRSv=[
-    'GreatKart\static',
+    'KartApp\static',
 ]
 #media files configration
 MEDIA_URL = '/media/'
